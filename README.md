@@ -41,11 +41,15 @@ I wrote a self-checking testbench to make sure the logic holds up.
 
 ### The Problem solved
 This hand-drawn diagram shows the exact "locking" collision scenario I wanted to prevent with this logic. By separating the blue paths, we avoid the red X's.
-![Intersection Diagram showing locking turns](intersection_diagram.jpg)
+![Intersection Diagram showing locking turns]
+
+(intersection_diagram.jpg)
 
 ### Simulation Results
 The simulation waveform confirms that the safety logic works. You can see the transitions are smooth and conflicting green lights never overlap.
-![GTKWave Simulation Output](waveform_simulation.png)
+![GTKWave Simulation Output]
+
+(waveform_simulation.png)
 
 ## Running the Project
 If you want to try this out on your local machine using Icarus Verilog:
