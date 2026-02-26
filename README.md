@@ -23,17 +23,17 @@ The controller cycles through 12 states to manage the flow. I split the "Right T
 
 |  State  |          What's happening?        | Duration (Cycles) |
 |  :----  |          :----------------        | :---------------- |
-|  **S0** | NS go straight & turn left                | 9 |
+|  **S0** | North and south go straight & turn left                | 9 |
 |  **S1** | South prepares to stop (Yellow)           | 1 |
-|  **S2** | **North turns right** (South is held Red) | 4 |
+|  **S2** | **Towards North, Left & Right** (South is held Red) | 4 |
 |  **S3** | North prepares to stop (Yellow)           | 1 |
-|  **S4** | **South turns right** (North is held Red) | 4 |
+|  **S4** | **Towards South, Left & Right** (North is held Red) | 4 |
 |  **S5** | South safety buffer (Yellow)              | 1 |
 |  **S6** | EW go straight & turn left                | 9 |
 |  **S7** | West prepares to stop (Yellow)            | 1 |
-|  **S8** | **East turns right** (West is held Red)   | 4 |
+|  **S8** | **Towards East, Left & Right** (West is held Red)   | 4 |
 |  **S9** | East prepares to stop (Yellow)            | 1 |
-| **S10** | **West turns right** (East is held Red)   | 4 |
+| **S10** | **Towards West, Left & Right** (East is held Red)   | 4 |
 | **S11** | West safety buffer (Yellow)               | 1 |
 
 ## Verification
